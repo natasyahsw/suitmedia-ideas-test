@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Suitmedia Ideas - Where all our great things begin. Explore our latest insights, articles, and creative content.">
+    <meta name="keywords" content="suitmedia, ideas, blog, articles, digital marketing, influencer marketing, content marketing">
+    <meta name="author" content="Suitmedia">
+    <title>Ideas - Suitmedia</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+</head>
+<body>
+    <header id="header">
+        <div class="header-content">
+            <a href="#" class="logo">
+                <img src="assets/images/logo.png" alt="Suitmedia">
+            </a>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#">Work</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#" class="active">Ideas</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-toggle" id="mobileMenuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <section class="banner">
+        <div class="banner-bg" id="bannerBg"></div>
+        <div class="banner-content">
+            <h1>Ideas</h1>
+            <p>Where all our great things begin</p>
+        </div>
+    </section>
+
+    <main class="main-content">
+        <div class="controls">
+            <div class="showing-info" id="showingInfo">
+                Showing 1 - 10 of 100
+            </div>
+            
+            <div class="control-group">
+                <div class="control-item">
+                    <label for="showPerPage">Show per page:</label>
+                    <select id="showPerPage">
+                        <option value="10">10</option>
+                        <option value="20">20</option>
+                        <option value="50">50</option>
+                    </select>
+                </div>
+                
+                <div class="control-item">
+                    <label for="sortBy">Sort by:</label>
+                    <select id="sortBy">
+                        <option value="-published_at">Newest</option>
+                        <option value="published_at">Oldest</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div id="postsContainer">
+            <div class="loading">
+                <div class="spinner"></div>
+                Loading posts...
+            </div>
+        </div>
+
+        <div class="pagination" id="pagination"></div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Suitmedia</h3>
+                <p>Digital agency specializing in creative solutions and innovative marketing strategies.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">Work</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Ideas</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <ul>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Suitmedia. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
